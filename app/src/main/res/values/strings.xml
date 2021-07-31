@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SampleImageEditor</string>
+    <string name="this_application_is_developed_only_for_neoastra">This Application is developed only for neoastra.</string>
+    <string name="launch">Launch</string>
+</resources>

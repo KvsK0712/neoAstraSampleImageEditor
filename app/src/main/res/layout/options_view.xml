@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="bottom"
+    android:weightSum="6">
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="0dip"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="open" />
+
+    <Button
+        android:id="@+id/crop"
+        android:layout_width="0dip"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="crop" />
+
+    <Button
+        android:id="@+id/flip_v"
+        android:layout_width="0dip"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="rotate left" />
+
+    <Button
+        android:id="@+id/flip_h"
+        android:layout_width="0dip"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="rotate_right" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="0dip"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="info" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="0dip"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="save" />
+
+</LinearLayout>
